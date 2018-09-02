@@ -1,0 +1,64 @@
+/* 
+    Document   : estilo
+    Created on : 11-04-2013, 04:51:52 PM
+    Author     : Manuel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+        * { margin: 0; 
+            padding: 0; }
+        
+	html { height: 100%; }
+        
+	body {font-size: 16px; 
+              font-family: 'Open Sans', sans-serif; 
+              height: 100%; 
+              position: relative; }
+        
+	header { background-color: whitesmoke; 
+                 height: 85px; 
+                 width: 100%; 
+                 position: fixed; 
+                 z-index: 99;  }
+
+	header > h1 { color: black; 
+                      font-family: 'Open Sans', sans-serif; 
+                      font-size: 35px; 
+                      font-weight: normal; 
+                      text-align: center; 
+                      margin-top: 10px; 
+                      margin-right: 10px; }
+	
+	#mapa { position: absolute; 
+                background: transparent; 
+                height: 100%; 
+                width: 100%; 
+                top: 0; 
+                left: 0; 
+                right: 0; 
+                bottom: 0; }
+	
+        
+        #ubicacion { position: absolute; 
+                     background: whitesmoke; 
+                     z-index: 150; 
+                     top: 10%; 
+                     width: 15%; 
+                     padding: 15px; }
+        
+        
+        #historial{
+            
+            
+            position: absolute; 
+                     background: whitesmoke; 
+                     z-index: 150; 
+                     top: 50%; 
+                     width: 15%; 
+                     padding: 15px;
+        }
